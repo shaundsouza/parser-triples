@@ -1,0 +1,4 @@
+(TOP (S (NP (NNP Google)) (VP (VBZ is) (VP (VBN located) (PP (IN in) (NP (NNP Mountain) (NN view)))))))
+(TOP (S (NP (NNP Mountain) (NN view)) (VP (VBZ is) (PP (IN in) (NP (NNP California))))))
+(TOP (S (NP (NNP Google)) (VP (VP (MD will) (VP (VB acquire) (NP (NNP YouTube)))) (, ,) (VP (VBD announced) (NP (DT the) (NNP New) (NNP York) (NNP Times)))) (. .)))
+(TOP (S (NP (NP (NNP Google)) (CC and) (NP (NNP Apple))) (VP (VBP are) (VP (VBN headquartered) (PP (IN in) (NP (NNP California))))) (. .)))
