@@ -1,4 +1,5 @@
 # parser-triples
+[![DOI](https://zenodo.org/badge/177632316.svg)](https://zenodo.org/badge/latestdoi/177632316)
 
 Shaun D’Souza. Parser extraction of triples in unstructured text. arXiv preprint arXiv:1811.05768, 2018. url: https://arxiv.org/abs/1811.05768
 
