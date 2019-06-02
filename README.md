@@ -26,7 +26,7 @@ java -cp opennlp-tools-1.6.0.jar opennlp.tools.cmdline.CLI Parser en-parser-chun
 * SVO Triples are extracted using the command
  
 ```
-java -cp opennlp-parser-svo-new.jar;opennlp-tools-1.6.0.jar opennlp.tools.parser.ParseKnowledgeNpVisited -fun -pos head_rules < ie-parser.txt
+java -cp opennlp-parser-svo-new.jar;opennlp-tools-1.6.0.jar opennlp.tools.parser.ParseKnowledgeNpVisitedMap -fun -pos head_rules < ie-parser.txt
 ```
 
 * Expected output
@@ -43,8 +43,8 @@ Google and Apple are headquartered in California .
 3       "Google and Apple"      "are headquartered"     "in California"
 ```
 
-* Alternate Map code command
+* Alternate code command
 
 ```
-java -cp opennlp-parser-svo-new.jar;opennlp-tools-1.6.0.jar opennlp.tools.parser.ParseKnowledgeNpVisitedMap -fun -pos head_rules < ie-parser.txt
+java -cp opennlp-parser-svo-new.jar;opennlp-tools-1.6.0.jar opennlp.tools.parser.ParseKnowledgeNpVisited -fun -pos head_rules < ie-parser.txt
 ```
