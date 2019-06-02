@@ -17,6 +17,10 @@ jar cvf opennlp-parser-svo-new.jar ./opennlp
 ```
 
 * Unstructured text can be parsed as per the Apache OpenNLP developer guide [Chapter 8. Parser] (https://opennlp.apache.org/docs/1.6.0/manual/opennlp.html#tools.parser)
+	* Download[en-parser-chunking.bin](http://opennlp.sourceforge.net/models-1.5/en-parser-chunking.bin)
+```
+java -cp opennlp-tools-1.6.0.jar opennlp.tools.cmdline.CLI Parser en-parser-chunking.bin < input.txt > output-parser.txt
+```
 	* A sample parsed file is uploaded in [ie-parser.txt](/ie-parser.txt)
 
 * SVO Triples are extracted using the command
