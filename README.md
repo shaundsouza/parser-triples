@@ -24,7 +24,7 @@ java -cp opennlp-tools-1.6.0.jar opennlp.tools.cmdline.CLI Parser en-parser-chun
 ```
 
 * SVO Triples are extracted using the command
- 
+	* Unix shell uses (:) as the path separator 
 ```
 java -cp opennlp-parser-svo-new.jar;opennlp-tools-1.6.0.jar opennlp.tools.parser.ParseKnowledgeNpVisitedMap -fun -pos head_rules < ie-parser.txt
 ```
